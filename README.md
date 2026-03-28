@@ -29,7 +29,7 @@ plugins = ["nonebot_plugin_gkmsCalculator"]
 | 配置项 | 说明 | 默认 |
 |--------|------|------|
 | `api_key` | 视觉/OCR 所用 API Key | 空（未配置时 OCR 不可用） |
-| `api_url` | OpenAI 兼容接口 Base URL | `https://api.siliconflow.cn/v1` |
+| `api_url` | 模型提供商地址 | `https://api.siliconflow.cn/v1` |
 | `model` | 模型名 | 空 |
 | `provider` | 提供商标识 | `siliconflow` |
 | `api_timeout` | 请求超时（秒） | `30` |
