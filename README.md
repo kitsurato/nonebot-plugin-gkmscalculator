@@ -1,6 +1,6 @@
 # nonebot-plugin-gkmscalculator
 
-学园偶像大师算分插件：产出评级（算分）、训练属性（算属性）、强化月算分、角色别称管理；支持截图 OCR。
+学园偶像大师算分插件：算分、算属性、强化月算分、角色别称管理；支持截图 OCR。
 
 ## 安装
 
@@ -48,19 +48,3 @@ plugins = ["nonebot_plugin_gkmsCalculator"]
 完整说明见插件元数据 `usage` 或源码 `__init__.py`。
 
 本项目布局遵循 [NoneBot 插件发布指南](https://nonebot.dev/docs/developer/plugin-publishing) 与 [RF-Tar-Railt/nonebot-plugin-template](https://github.com/RF-Tar-Railt/nonebot-plugin-template)（PDM、`src` 布局、`pdm-backend`）。
-
-```bash
-pdm sync -G dev
-pdm run test
-pdm build
-```
-
-发布：将 `pyproject.toml` 的 `version` 与 Git 标签（如 `v0.2.0`）对齐后推送 `v*`，由 `.github/workflows/release.yml` 执行 `pdm publish`。请先在 [PyPI Trusted Publisher](https://pypi.org/manage/account/publishing/) 绑定本仓库，并把 `src/nonebot_plugin_gkmsCalculator/__init__.py` 中 `homepage` 与 `pyproject.toml` 的 `[project.urls]` 改为你自己的项目主页。
-
-### 与旧版「扁平插件目录」的对接
-
-若此前把整个文件夹直接放在机器人的 `plugins/` 下，迁移后请任选其一：在本仓库根目录执行 `pip install -e .` 后按模块名加载，或使用 `nb plugin install` / `pip install` 安装发布包。勿再将 `src` 子目录单独当作插件路径。
-
-## 许可证
-
-MIT
