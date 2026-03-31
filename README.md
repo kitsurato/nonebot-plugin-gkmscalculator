@@ -47,4 +47,4 @@ plugins = ["nonebot_plugin_gkmsCalculator"]
 
 完整说明见插件元数据 `usage` 或源码 `__init__.py`。
 
-本项目布局遵循 [NoneBot 插件发布指南](https://nonebot.dev/docs/developer/plugin-publishing) 与 [RF-Tar-Railt/nonebot-plugin-template](https://github.com/RF-Tar-Railt/nonebot-plugin-template)（PDM、`src` 布局、`pdm-backend`）。
+本项目布局遵循 [NoneBot 插件发布指南](https://nonebot.dev/docs/developer/plugin-publishing) 与 [RF-Tar-Railt/nonebot-plugin-template](https://github.com/RF-Tar-Railt/nonebot-plugin-template)
